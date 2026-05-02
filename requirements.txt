@@ -1,0 +1,21 @@
+# Runtime dependencies for the Streamlit app and core segmentation code.
+#
+# Use the standard PyPI PyTorch wheels here. They work on macOS/Apple Silicon
+# via CPU/MPS and on Linux CPU. CUDA builds such as torch==2.5.1+cu121 are
+# platform-specific and are not available for macOS or Python 3.13.
+
+accelerate>=1.0.0
+albumentations>=1.4.0
+matplotlib>=3.8.0
+numpy>=1.26.0,<3.0.0
+opencv-python-headless>=4.9.0
+pillow>=10.0.0
+pyyaml>=6.0.0
+requests>=2.31.0
+scipy>=1.14.0
+segmentation-models-pytorch>=0.3.4
+streamlit>=1.28.0
+torch>=2.6.0
+torchvision>=0.21.0
+tqdm>=4.65.0
+transformers>=4.40.0
